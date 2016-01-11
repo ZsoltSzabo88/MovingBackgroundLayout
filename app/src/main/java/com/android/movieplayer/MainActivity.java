@@ -12,7 +12,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        moviePlayerLayout = (MoviePlayerLayout)findViewById(R.id.movie_background);
+        moviePlayerLayout = (MoviePlayerLayout) findViewById(R.id.movie_background);
+        clearAppBackgroundColor();
     }
 
     @Override
@@ -26,5 +27,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onPause() {
         moviePlayerLayout.onPause();
         super.onPause();
+    }
+
+    private void clearAppBackgroundColor() {
+        getWindow().setBackgroundDrawable(null);
     }
 }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MoviePlayerBgDemo.iml" filepath="$PROJECT_DIR$/MoviePlayerBgDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VideoLayoutDemo.iml" filepath="$PROJECT_DIR$/VideoLayoutDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
